@@ -1,0 +1,131 @@
+{
+    "documents": [
+        {
+            "id": "id__7749",
+            "sentiment": "neutral",
+            "confidenceScores": {
+                "positive": 0.14,
+                "neutral": 0.83,
+                "negative": 0.04
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.33,
+                        "neutral": 0.66,
+                        "negative": 0.02
+                    },
+                    "offset": 0,
+                    "length": 120,
+                    "text": "The color blue is often described as calming and serene, evoking feelings of tranquility and stability for many people. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 4,
+                            "length": 10,
+                            "text": "color blue",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/1"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/2"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/3"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 37,
+                            "length": 7,
+                            "text": "calming",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 49,
+                            "length": 6,
+                            "text": "serene",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 77,
+                            "length": 11,
+                            "text": "tranquility",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 93,
+                            "length": 9,
+                            "text": "stability",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.91,
+                        "negative": 0.08
+                    },
+                    "offset": 120,
+                    "length": 50,
+                    "text": "However, for others, it may seem cold or distant. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.08,
+                        "neutral": 0.91,
+                        "negative": 0.01
+                    },
+                    "offset": 170,
+                    "length": 214,
+                    "text": "In terms of design, using the color blue can be a solid choice to convey professionalism and reliability, but it's important to consider the context and the target audience when applying it in different situations.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
